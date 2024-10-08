@@ -3,12 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
     <!-- Linking spaces -->
      <link rel="stylesheet" href="styles/style.css">
-     <link rel="icon" href="favicon.ico" type="image/x-icon">
+     <link rel="icon" href="icon/icons8-home-48.png" type="image/x-icon">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form>
+                <h3>Filup the from</h3>
+            <label for="name">Name:
+                <input type="name" name="" id="name" placeholder="Type your name">
+            </label>
+            <label for="email">Email:
+                <input type="email" name="" id="email" placeholder="Type your email">
+            </label>
+            <label for="password">password
+                <input type="password" name="" id="password" placeholder="Type your password">
+            </label>
+
+            <fieldset>
+                <legend>Pick one pitha</legend>
+                <label for="pitha">
+                    <input type="radio" name="pitha" id="vapa">vapa
+                </label>
+                <label for="pitha">
+                    <input type="radio" name="pitha" id="">citoi
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>pick one or more vorta</legend>
+                <label for="vorta">
+                    <input type="checkbox" name="" id="votra">Sorisha vorta
+                </label>
+                <label for="vorta">
+                    <input type="checkbox" name="" id="votra">Bagun vorta
+                </label>
+                <label for="vorta">
+                    <input type="checkbox" name="" id="votra">mash vorta
+                </label>
+            </fieldset>
+            <input type="reset" value="reset">
+            <input type="submit" value="send">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p><small>&copy;All copy rights 2024</small></p>
+    </footer>
+
 </body>
 </html>
